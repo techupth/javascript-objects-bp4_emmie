@@ -13,6 +13,17 @@ const employee = {
   },
 };
 
-console.log(`Employee Name: ${employee.name}`);
-console.log(`Employee Age: ${employee.age}`);
-console.log(`Employee Address: ${employee.address.street}, ${employee.address.city}, ${employee.address.states}, ${employee.address.country} ${employee.address.postalCode}`);
+console.log("Employee Name: " + employee.name);
+console.log("Employee Age: " + employee.age);
+console.log(
+  "Employee Address: " +
+    employee.address.street +
+    ", " +
+    employee.address.city +
+    ", " +
+    employee.address.state +
+    ", " +
+    employee.address.country +
+    " " +
+    employee.address.postalCode
+);
